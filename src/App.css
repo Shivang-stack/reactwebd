@@ -1,38 +1,47 @@
 .App {
   text-align: center;
+  background-color: #009AD4;
+  height: 80px;
+  color: azure;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  padding-top: 17px;
+  font-family: 'Roboto','Montserrat';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.logo{
+  margin:100px;
+}
+
+p{
+  color:black;
+  font-size: x-large;
+  font-family: 'Roboto','Montserrat';
+}
+
+@media only screen and (max-width: 450px) {
+  .App {
+    text-align: center;
+    background-color: #009AD4;
+    height: 80px;
+    width: 100%;
+    color: white;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h1{
+    padding-top: 17px;
+    font-family: 'Roboto','Montserrat';
   }
-  to {
-    transform: rotate(360deg);
+  
+  .logo {
+    margin:100px;
   }
+ 
+  p {
+    color: black;
+    font-size: x-large;
+    font-family: 'Roboto','Montserrat';
+    
+  }
+
 }
